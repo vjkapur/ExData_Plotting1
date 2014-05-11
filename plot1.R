@@ -17,5 +17,5 @@ rm(data)
 
 ##output to PNG
 png(file='plot1.png')
-hist(subdata$Global_active_power,ylim=c(0,1200), breaks = "sturges",xlab='Global Active Power (kilowatts)',main='Global Active Power',col="red")
+hist(subdata$Global_active_power, ylim=c(0,1200), xlab='Global Active Power (kilowatts)', main='Global Active Power', col="red")
 dev.off()
